@@ -1,0 +1,59 @@
+
+let mapleader = ","
+
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+set list
+set listchars=tab:▸\ ,eol:¬
+
+colorscheme blackboard
+set transparency=15
+let python_highlight_all = 1
+
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
+set relativenumber
+set undofile
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <leader>a :Ack
+nnoremap <leader>ft Vatzf
+nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
+nnoremap <leader>v V`]
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr
+
+nnoremap <leader>w <C-w>v<C-w>l
+
+set guioptions=egmrt
+set guioptions-=T
+
