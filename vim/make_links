@@ -1,4 +1,4 @@
 #!/bin/sh
-ln -nfs . ~/.vim
-ln -nfs vimrc ~/.vimrc
-ln -nfs gvimrc ~/.gvimrc
+ln -nfs `pwd` ~/.vim
+ln -nfs `pwd`/vimrc ~/.vimrc
+ln -nfs `pwd`/gvimrc ~/.gvimrc
