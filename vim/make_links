@@ -1,4 +1,4 @@
 #!/bin/sh
-ln -s . ~/.vim
-ln -s vimrc ~/.vimrc
-ln -s gvimrc ~/.gvimrc
+ln -nfs . ~/.vim
+ln -nfs vimrc ~/.vimrc
+ln -nfs gvimrc ~/.gvimrc
